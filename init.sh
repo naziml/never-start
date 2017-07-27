@@ -1,5 +1,6 @@
 #!/bin/bash
 for (( ; ; ))
 do
-   echo "infinite loops"
+   >&2 echo "$(date) I am still here ... "
+   sleep 10
 done
